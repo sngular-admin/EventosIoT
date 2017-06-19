@@ -41,7 +41,7 @@ Una vez hemos accedido a la plataforma con nuestro usuario debemos tener en cuen
 
 ### Obteniendo el Token de nuestro usuario
 
-1.Accedemos a Ubidots ([Login Ubidots ](https://app.ubidots.com/accounts/signin/)
+1.Accedemos a Ubidots ([Login Ubidots ](https://app.ubidots.com/accounts/signin/))
 
 ![LOGIN UBIDOTS](./images/login_ubidots.PNG)
 

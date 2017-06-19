@@ -1,4 +1,4 @@
-#{ing}tech_it : Índice
+# {ing}tech_it : Índice
 
 El objetivo de este taller como ya se ha indicado en el readme de este repositorio es monitorizar la humedad en tiempo real de la planta en la que hemos puesto el sensor de humedad, debemos aclarar que en general nos podemos encontrar dos sensores de humedad, el sensor de humedad ambiente o la humedad sobre una superficie, en nuestro caso vamos a medir la humedad de la tierra, lo que implica que sólo podremos monitorizar la humedad de una planta con cada sensor.
 
