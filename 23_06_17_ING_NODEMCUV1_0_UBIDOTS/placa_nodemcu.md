@@ -1,4 +1,4 @@
-#{ing}tech_it : Placa NODEMCU V1.0
+# {ing}tech_it : Placa NODEMCU V1.0
 
 Una vez que tenemos la placa NODEMCU lo primero que tenemos que hacer es averiguar que chip lleva la placa que tenemos. Esto es importante debido a que está placa de desarrollo generalmente suele traer dos tipos de chip para ser programados, y en función del chip que tiene instalado deberemos instalar un driver u otro.
 

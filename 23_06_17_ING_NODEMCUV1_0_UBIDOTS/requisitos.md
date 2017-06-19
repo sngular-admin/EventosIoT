@@ -1,4 +1,4 @@
-#{ing}tech_it : Requisitos
+# {ing}tech_it : Requisitos
 
 Para poder desarrollar el taller necesitamos:
 
