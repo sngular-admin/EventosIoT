@@ -4,22 +4,22 @@ Llegados a este punto ya tenemos lo necesario para poder implementar el circuito
 
 ### Montaje del circuito (Desconectado del ordenador)
 
-1.Colocamos la placa NODEMCU en la protaboard
+1. Colocamos la placa NODEMCU en la protaboard
 
-2.Colocamos el sensor de humedad correctamente teniendo en cuenta que no os equivoquemos con los pines, debemos coger el controlador del sensor de humedad y conectar correctamente la señal analogica a la entrada A0 de la placa NODEMCU. Ahora conectamos la tensión VCC del controlador a los 3V de la placa NODEMCU y la salida GND del controlador GND de la placa NODEMCU.
+2. Colocamos el sensor de humedad correctamente teniendo en cuenta que no os equivoquemos con los pines, debemos coger el controlador del sensor de humedad y conectar correctamente la señal analogica a la entrada A0 de la placa NODEMCU. Ahora conectamos la tensión VCC del controlador a los 3V de la placa NODEMCU y la salida GND del controlador GND de la placa NODEMCU.
 
-3.-Revisamos que hemos conectado todo correctamente para no quemar el sensor y lo conectamos a nuestro ordeador.
+3. Revisamos que hemos conectado todo correctamente para no quemar el sensor y lo conectamos a nuestro ordeador.
 
 
 ### Programar la placa
 
 Una vez tenemos conectado correctamente el circuito conectamos la placa NODEMCU a través del cable micro USB a nuestro PC y abrimos el IDE de Arduino.
 
-1.Comprobamos que el IDE de Arduino a detectado la placa y que nosotros hemos seleccionado correctamente la placa en el IDE para programarla. Además tenemos que seleccioar el puerto correcto para programar la placa que hemos conectado, todas estas opciones estan en el IDE de Arduino en la pestaña Herramientas.
+1. Comprobamos que el IDE de Arduino a detectado la placa y que nosotros hemos seleccionado correctamente la placa en el IDE para programarla. Además tenemos que seleccioar el puerto correcto para programar la placa que hemos conectado, todas estas opciones estan en el IDE de Arduino en la pestaña Herramientas.
 
 ![COMPROBAR QUE EL IDE HA RECONOCIDO LA PLACA](./images/driver_chip_windows.png)
 
-2.Creamos el Sketch que vamos a grabar en el NODEMCU con los datos de conexión a internet y nuestro Token de nuestro usuario de Ubidots. 
+2. Creamos el Sketch que vamos a grabar en el NODEMCU con los datos de conexión a internet y nuestro Token de nuestro usuario de Ubidots. 
 
 ```bash
     //Añadimos las librerias necesarias
@@ -66,10 +66,10 @@ Una vez tenemos conectado correctamente el circuito conectamos la placa NODEMCU 
 	}
 ```
 
-3.Leer la salida serial de la placa NODEMCU para ver si se conecta a Internet a través del punto de acceso a Internet, para ello una vez que hemos cargado el programa correctamente y nos ha salido en la consola del IDE de Arduino que todo ha ido correctamente y se ha cargado 100% del programa, le damos en la pestaña superior Herramientas->Monitor Serie y deberiamos ver un 'OK', esto significa que se ha conectado a internet y que esta enviando datos a Ubidots si en el código hemos añadido nuestro Token de Ubidots.
+3. Leer la salida serial de la placa NODEMCU para ver si se conecta a Internet a través del punto de acceso a Internet, para ello una vez que hemos cargado el programa correctamente y nos ha salido en la consola del IDE de Arduino que todo ha ido correctamente y se ha cargado 100% del programa, le damos en la pestaña superior Herramientas->Monitor Serie y deberiamos ver un 'OK', esto significa que se ha conectado a internet y que esta enviando datos a Ubidots si en el código hemos añadido nuestro Token de Ubidots.
 
 
-4.Ver en Ubidots con nuestra cuenta si nos estan llegando datos, sino tenemos maceta podemos simular los datos.
+4. Ver en Ubidots con nuestra cuenta si nos estan llegando datos, sino tenemos maceta podemos simular los datos.
 
 Accedemos en Ubidots con nuestra cuenta y nos debe salir en la pestaña de Devices un nuevo dispositivo con una variable que es la humedad que esta enviando nuestra placa cada 5000ms.
 
@@ -77,7 +77,7 @@ Accedemos en Ubidots con nuestra cuenta y nos debe salir en la pestaña de Devic
 ### Sustituir la fuente de alimentación por una Pila de 9V.
 
 
-![CIRCUITO FINAL](./images/circuito_humedad_nodemcu.PNG)
+![CIRCUITO FINAL](./images/circuito_humedad_nodemcu.jpg)
 
 ---
 Continuar al  [Paso 6](./visualizando_datos.md), [Volver](./configurando_ide_arduino.md) o ir al [Indice](./index.md)
