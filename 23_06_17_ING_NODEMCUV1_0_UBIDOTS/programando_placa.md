@@ -68,6 +68,7 @@ Una vez tenemos conectado correctamente el circuito conectamos la placa NODEMCU 
 
 3. Leer la salida serial de la placa NODEMCU para ver si se conecta a Internet a través del punto de acceso a Internet, para ello una vez que hemos cargado el programa correctamente y nos ha salido en la consola del IDE de Arduino que todo ha ido correctamente y se ha cargado 100% del programa, le damos en la pestaña superior Herramientas->Monitor Serie y deberiamos ver un 'OK', esto significa que se ha conectado a internet y que esta enviando datos a Ubidots si en el código hemos añadido nuestro Token de Ubidots.
 
+![PROGRAMANDO LA PLACA](./images/cargar_codigo_placa.PNG)
 
 4. Ver en Ubidots con nuestra cuenta si nos estan llegando datos, sino tenemos maceta podemos simular los datos.
 

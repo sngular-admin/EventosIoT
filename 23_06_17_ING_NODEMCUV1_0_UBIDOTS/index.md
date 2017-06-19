@@ -10,7 +10,6 @@ Para cumplir nuestro objetivo vamos a seguir estos pasos:
 1. [Configuración IDE Arduino para programar la placa NODEMCU V1.0](./configurando_ide_arduino.md)
 1. [Programamos la Placa](./programando_placa.md)
 1. [Visualizamos la humedad de nuestra planta en tiempo real](./visualizando_datos.md)
-1. [Lineas futuras](./lineas_futuras.md)
 
 
 ---

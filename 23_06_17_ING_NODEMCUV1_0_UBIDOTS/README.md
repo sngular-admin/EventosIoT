@@ -1,4 +1,5 @@
-# {ing}tech_it : {event}IoT_WorkShop
+
+![PORTADA](./images/portada.PNG)
 
 Este taller permite al alumno monitorizar la humedad de una planta y subir la información a una plataforma en la nube para que el alumno desde cualquier parte del mundo pueda comprobar que humedad tiene la planta.
 
