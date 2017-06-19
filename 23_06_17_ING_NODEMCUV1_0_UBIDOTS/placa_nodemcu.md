@@ -20,17 +20,13 @@ Una vez instalado el driver en nuestro PC conectamos la placa con el cable micro
 
 MAC
 
-![DRIVER DETECTADO CORRECTAMENTE](./images/placa_node_mcu_v1_0.jpg)
+![DRIVER DETECTADO CORRECTAMENTE](./images/driver_chip_mac.png)
 
 
 WINDOWS
 
-![DRIVER DETECTADO CORRECTAMENTE](./images/placa_node_mcu_v1_0.jpg)
+![DRIVER DETECTADO CORRECTAMENTE](./images/driver_chip_windows.png)
 
-
-
-
-3.Errores tipicos si nuestro PC no reconoce nuestra placa 
 
 ---
 Continuar al  [Paso 3](./ubidots.md) o volver [Indice](./index.md)
