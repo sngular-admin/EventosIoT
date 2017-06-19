@@ -2,7 +2,7 @@
 
 Para poder desarrollar el taller necesitamos:
 
-1.HARDWARE
+1. HARDWARE
 - Ordenador
 - Placa NodeMCUv1.0
 - Sensor de Humedad YL-69
@@ -15,7 +15,7 @@ Para poder desarrollar el taller necesitamos:
 - 4 cables jumper Female-Female
 - 2 cables de puente "U"
 
-2.SOFTWARE
+2. SOFTWARE
 - IDE Arduino 1.6.x como mínimo
 
 --------

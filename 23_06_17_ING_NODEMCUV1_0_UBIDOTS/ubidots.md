@@ -17,22 +17,22 @@ Una hemos introducido Ubidots vamos ha utilizarlo y para ello lo primero es darn
 Una vez hemos accedido a la plataforma con nuestro usuario debemos tener en cuenta algunos aspectos:
 
 
-1.Ubidots no es gratis pero inicialmente nos da un saldo 5,000 para utilizarlo por un tiempo.
+1. Ubidots no es gratis pero inicialmente nos da un saldo 5,000 para utilizarlo por un tiempo.
 
 
 ![SALDO INICIAL UBIDOTS](./images/saldo_inicial_ubidots.PNG)
 
-2.Ubidots permite crear dispositivos y variables en esos dispositivos lo que permite enviar los datos de sensores especificos
+2. Ubidots permite crear dispositivos y variables en esos dispositivos lo que permite enviar los datos de sensores especificos
 
 
 ![CREAR DISPOSITIVOS UBIDOTS](./images/crear_devices.PNG)
 
-3.(Usaremos en este taller)Ubidots nos provee de un TOKEN único para nuestro usuario lo que nos permite enviar datos desde cualquier dispositivo conectado a Internet.
+3. (Usaremos en este taller)Ubidots nos provee de un TOKEN único para nuestro usuario lo que nos permite enviar datos desde cualquier dispositivo conectado a Internet.
 
 
 ![OBTENER TOKEN UBIDOTS](./images/coger_token_ubidots.png)
 
-4.Ubidots permite poner alarmas o eventos que nos envien correo electronico cuando un sensor no esta en los valores que deseamos, por ejemplo.
+4. Ubidots permite poner alarmas o eventos que nos envien correo electronico cuando un sensor no esta en los valores que deseamos, por ejemplo.
 
 
 ![CREAR EVENTOS UBIDOTS](./images/crear_eventos_ubidots.PNG)
@@ -41,11 +41,11 @@ Una vez hemos accedido a la plataforma con nuestro usuario debemos tener en cuen
 
 ### Obteniendo el Token de nuestro usuario
 
-1.Accedemos a Ubidots ([Login Ubidots ](https://app.ubidots.com/accounts/signin/))
+1. Accedemos a Ubidots ([Login Ubidots ](https://app.ubidots.com/accounts/signin/))
 
 ![LOGIN UBIDOTS](./images/login_ubidots.PNG)
 
-2.Obtenemos el Token que utilizaremos en la placa NODEMCU V1.0 
+2. Obtenemos el Token que utilizaremos en la placa NODEMCU V1.0 
 
 ![OBTENER TOKEN UBIDOTS](./images/coger_token_ubidots.png)
 
