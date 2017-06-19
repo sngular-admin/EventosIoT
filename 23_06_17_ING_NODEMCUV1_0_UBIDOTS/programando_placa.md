@@ -1,4 +1,4 @@
-#{ing}tech_it : Programando Placa
+# {ing}tech_it : Programando Placa
 
 Llegados a este punto ya tenemos lo necesario para poder implementar el circuito y programar la placa para enviar datos a Ubidots.
 
@@ -17,7 +17,7 @@ Una vez tenemos conectado correctamente el circuito conectamos la placa NODEMCU 
 
 1.Comprobamos que el IDE de Arduino a detectado la placa y que nosotros hemos seleccionado correctamente la placa en el IDE para programarla. Además tenemos que seleccioar el puerto correcto para programar la placa que hemos conectado, todas estas opciones estan en el IDE de Arduino en la pestaña Herramientas.
 
-![COMPROBAR QUE EL IDE HA RECONOCIDO LA PLACA](./images/driver_chip_windows.PNG)
+![COMPROBAR QUE EL IDE HA RECONOCIDO LA PLACA](./images/driver_chip_windows.png)
 
 2.Creamos el Sketch que vamos a grabar en el NODEMCU con los datos de conexión a internet y nuestro Token de nuestro usuario de Ubidots. 
 
@@ -77,7 +77,7 @@ Accedemos en Ubidots con nuestra cuenta y nos debe salir en la pestaña de Devic
 ### Sustituir la fuente de alimentación por una Pila de 9V.
 
 
-![CIRCUITO FINAL](./images/instalando_esp8266.PNG)
+![CIRCUITO FINAL](./images/circuito_humedad_nodemcu.PNG)
 
 ---
 Continuar al  [Paso 6](./visualizando_datos.md), [Volver](./configurando_ide_arduino.md) o ir al [Indice](./index.md)

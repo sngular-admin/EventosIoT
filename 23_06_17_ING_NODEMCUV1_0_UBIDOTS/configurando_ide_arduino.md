@@ -1,4 +1,4 @@
-#{ing}tech_it : Configurando IDE Arduino
+# {ing}tech_it : Configurando IDE Arduino
 
 En esta sección vamos a configurar el IDE Arduino para programar la placa NODEMCU para enviar los datos que recibe la placa a través de los sensores, enviarla a Ubidots a través de la conexión WiFi que permite dicha placa.
 
@@ -22,7 +22,7 @@ Para poder utilizar en nuestros código el modulo NODEMCU debemos instalar la li
 
 Para poder enviar datos a Ubidots utilizando la API que provee Ubidots tenemos que importar la libreria de Ubidots para el NODEMCU V1.0:
 
-1.-Descargamos el ZIP de la librería de Ubidots para el chip ESP8266 desde ([Librería UbidotsMicroESP8266 ](https://github.com/ubidots/ubidots-nodemcu/archive/master.zip)
+1.-Descargamos el ZIP de la librería de Ubidots para el chip ESP8266 desde ([Librería UbidotsMicroESP8266 ](https://github.com/ubidots/ubidots-nodemcu/archive/master.zip))
 
 2.-Importamos la librería al IDE de Arduino para ello pulsamos en el IDE Programa -> Include Library -> Add .ZIP Library y seleccionamos el ZIP descargado.
 
