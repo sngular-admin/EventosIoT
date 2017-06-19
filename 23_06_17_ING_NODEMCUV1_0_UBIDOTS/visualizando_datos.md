@@ -18,7 +18,7 @@ En esta sección vamos a explicar como interpretar los datos desde Ubidots con l
 ![DATOS EN TIEMPO REAL DE UNA VARIABLE](./images/datos_tiempo_real_ubidots.PNG)
 
 ---
-Continuar al  [Paso 7](./lineas_futuras.md) o ir al [Indice](./index.md)
+[Volver](./programando_placa.md) o ir al [Indice](./index.md)
 
 
 
