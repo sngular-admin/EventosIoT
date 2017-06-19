@@ -19,4 +19,4 @@ Para poder desarrollar el taller necesitamos:
 - IDE Arduino 1.6.x como mínimo
 
 --------
-Continuar al  [Paso 2](./placa_nodemcu.md) o volver [Indice](./index.md)
+Continuar al  [Paso 2](./placa_nodemcu.md) o ir al [Indice](./index.md)

@@ -1,7 +1,7 @@
 #{ing}tech_it : Visualizando Datos
 
 ---
-Volver [Indice](./index.md)
+Continuar al  [Paso 5](./lineas_futuras.md) , [Volver](./programando_placa.md) o ir al [Indice](./index.md)
 
 
 

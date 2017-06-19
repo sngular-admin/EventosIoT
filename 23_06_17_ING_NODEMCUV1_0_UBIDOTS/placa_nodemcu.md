@@ -29,7 +29,7 @@ WINDOWS
 
 
 ---
-Continuar al  [Paso 3](./ubidots.md) o volver [Indice](./index.md)
+Continuar al  [Paso 3](./ubidots.md), [Volver](./requisitos.md) o ir al [Indice](./index.md)
 
 
 

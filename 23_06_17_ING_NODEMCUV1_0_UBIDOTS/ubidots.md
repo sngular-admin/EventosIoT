@@ -50,7 +50,7 @@ Una vez hemos accedido a la plataforma con nuestro usuario debemos tener en cuen
 ![OBTENER TOKEN UBIDOTS](./images/coger_token_ubidots.png)
 
 ---
-Continuar al  [Paso 4](./configurando_ide_arduino.md) o volver [Indice](./index.md)
+Continuar al  [Paso 4](./configurando_ide_arduino.md) , [Volver](./placa_nodemcu.md) o ir al [Indice](./index.md)
 
 
 

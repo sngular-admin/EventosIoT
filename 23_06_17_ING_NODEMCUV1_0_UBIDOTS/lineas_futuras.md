@@ -1,7 +1,7 @@
 #{ing}tech_it : Lineas Futuras
 
 ---
-Volver [Indice](./index.md)
+[Volver](./visualizando_datos.md) o ir al [Indice](./index.md)
 
 
 
