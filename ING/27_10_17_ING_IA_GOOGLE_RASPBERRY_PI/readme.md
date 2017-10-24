@@ -1,11 +1,13 @@
 
 ![PORTADA](./images/portada.jpg)
 
-Este taller permite al alumno monitorizar la humedad de una planta y subir la información a una plataforma en la nube para que el alumno desde cualquier parte del mundo pueda comprobar que humedad tiene la planta.
+Este taller permite al alumno controlar un led conectado a una raspberry pi a través de la voz.
 
-Este permite al alumno decidir cuando debe regar su planta en función de la humedad que tiene.
+Para ello, el alumno utilizara varios sistemas, en un principio, creará un bot con el servicio de inteligencia artificial de google llamado dialogflow.
 
-El alcande del taller permitira al alumno programar la placa NODEMCU V1.0 que permite la conexión a internet a través de un modulo WiFi (ESP8266) y además publicar los datos obtenidos a través de los sensores conectados en una plataforma con bajo coste como es Ubidots. 
+Una vez creado el bot creará una aplicación con Actions Google que integrará con el bot creado.
+
+Finalmente instalará el SDK de Google Assistant para Python en la Raspberry Pi, configurando la Raspberry Pi para poder interactuar con el bot a través de un script creado en Python utilizando el SDK instalado. 
 
 [Comenzamos](./index.md)
 
