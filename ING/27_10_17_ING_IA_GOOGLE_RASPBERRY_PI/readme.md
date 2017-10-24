@@ -1,5 +1,5 @@
 
-![PORTADA](./images/portada.PNG)
+![PORTADA](./images/portada.jpg)
 
 Este taller permite al alumno monitorizar la humedad de una planta y subir la información a una plataforma en la nube para que el alumno desde cualquier parte del mundo pueda comprobar que humedad tiene la planta.
 
