@@ -24,7 +24,7 @@ Ahora sin sacar la SD del ordenador accedemos a su contenido y seguimos estos do
 
 (TODO IMAGEN SD)
 
-1. Crear un fichero llamado wpa_configure.conf con las credenciales de todos los datos de nuestra conexión WiFi para que al encenderla se conecte sola a la WiFi.
+2. Crear un fichero llamado wpa_configure.conf con las credenciales de todos los datos de nuestra conexión WiFi para que al encenderla se conecte sola a la WiFi.
 
 (TODO FICHERO DE CONFIGURACION WIFI)
 
@@ -49,7 +49,7 @@ speaker-test -t wav
 ~~~
 
 
-1. Graba sonido
+2. Graba sonido
 
 Lanzamos el siguiente comando que graba 5 segundos
 
