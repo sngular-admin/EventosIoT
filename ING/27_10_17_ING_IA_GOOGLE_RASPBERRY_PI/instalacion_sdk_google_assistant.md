@@ -1,6 +1,5 @@
 # {ing}tech_it : Instalación SDK Google Assistant API
 
-Instalación SDK Google Assistant API
 
 Una vez hemos conectado por ssh a nuestra Raspberry Pi ya estamos en situación de poder instalar el SDK de Google Assistant para Python en nuestra Raspberry Pi.
 

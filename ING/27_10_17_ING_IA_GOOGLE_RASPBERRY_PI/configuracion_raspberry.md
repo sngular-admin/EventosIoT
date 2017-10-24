@@ -1,6 +1,5 @@
 # {ing}tech_it : Configuración Raspberry Pi
 
-Configuración Raspberry Pi
 
 Para la configuración de la Raspberry Pi hemos utilizado un equipo Windows y el programa Win32 Disk Imagen para grabar la imagen rasbian en la SD.
 
