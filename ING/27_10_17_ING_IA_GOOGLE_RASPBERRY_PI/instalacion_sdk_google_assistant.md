@@ -34,7 +34,7 @@ scp ~/Downloads/client_secret_client-id.json pi@raspberry-pi-ip-address:/home/pi
 
 [+AYUDA](https://developers.google.com/assistant/sdk/develop/python/config-dev-project-and-account)
 
-1. Instalación del SDK de Google Assistant API para Python 3
+2. Instalación del SDK de Google Assistant API para Python 3
 
 Instalamos Python 3 y un entorno virtual (entorno virtual no es obligatorio)
 
@@ -52,7 +52,7 @@ Instalamos la librería del google assistant
 python -m pip install --upgrade google-assistant-library
 ~~~
 
-1. Probamos el ejemplo 
+3. Probamos el ejemplo 
 TODO
 
 [+AYUDA](https://developers.google.com/assistant/sdk/develop/python/run-sample)
