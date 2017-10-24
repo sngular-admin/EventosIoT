@@ -14,20 +14,20 @@ Una vez que hemos creado la cuenta procedemos a instalar el SDK de Google Assist
 
 1.1 Creamos un nuevo proyecto o seleccionamos uno ya existente [enlace](https://console.cloud.google.com/start)
 
-[CREATE NEW PROJECT GOOGLE CLOUD PLATFORM](./images/create_project_google_cloud_platform.png)
+![CREATE NEW PROJECT GOOGLE CLOUD PLATFORM](./images/create_project_google_cloud_platform.png)
 
 
 1.2 Habilitamos las credenciales de la API
 
-[ENABLE API CREDENTIALS](./images/enable_api_credential.png)
+![ENABLE API CREDENTIALS](./images/enable_api_credential.png)
 
 Una vez habilitada la API nos vamos a la pestaña credenciales en la pestaña "Credenciales" y creamos una credencial para nuestra Raspberry Pi que sea única para ella.
 
-[CREATE CREDENTIAL FOR RASPBERRY PI](./images/create_credential_raspberry_pi.png)
+![CREATE CREDENTIAL FOR RASPBERRY PI](./images/create_credential_raspberry_pi.png)
 
 1.3 Descargamos el fichero json con las credenciales y lo guardamos en la raiz de la raspberry pi, en el directorio "home/pi", lo podemos pasar por scp con este comando desde nuestro ordenador a la raspberry pi.
 
-[DOWLOAD CREDENTIALS](./images/dowload_credential.png)
+![DOWLOAD CREDENTIALS](./images/dowload_credential.png)
 
 ~~~
 scp ~/Downloads/client_secret_client-id.json pi@raspberry-pi-ip-address:/home/pi/
