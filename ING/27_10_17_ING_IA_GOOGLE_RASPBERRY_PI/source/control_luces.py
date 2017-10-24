@@ -20,6 +20,8 @@ from __future__ import print_function
 import argparse
 import os.path
 import json
+import RPi.GPIO as GPIO
+import time
 
 import google.oauth2.credentials
 
@@ -42,18 +44,23 @@ def process_event(event, assistant):
     if event.type == EventType.ON_RECOGNIZING_SPEECH_FINISHED:
         speech_text = event.args["text"]
         print("speech text: " + speech_text)
-        if(speech_text == 'light off' or speech_text == 'lights off' or speech_text == 'light of'):
+        GPIO.setup(18,GPIO.OUT)
+        if(speech_text == 'light off' or speech_text == 'lights off' or speech_text == 'light of'
+            speech_text == 'lights off' or speech_text == 'light of' or speech_text == 'lights of'
+            or speech_text == 'Light OFF'):
             print("------------")
             print("------------")
             print("Apaga la luz")
             print("------------")
             print("------------")
-        if(speech_text == 'light on' or speech_text == 'lights on'):
+            GPIO.output(18,GPIO.LOW)
+        if(speech_text == 'light on' or speech_text == 'lights on' or speech_text == 'Light ON'):
             print("------------")
             print("------------")
             print("Enciende la luz")
             print("------------")
             print("------------")
+            GPIO.output(18,GPIO.HIGH)
 
 
 
@@ -79,4 +86,8 @@ def main():
 
 
 if __name__ == '__main__':
+
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setwarnings(False)
+    GPIO.setup(18,GPIO.OUT)
     main()
