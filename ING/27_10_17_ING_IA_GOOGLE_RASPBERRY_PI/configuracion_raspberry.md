@@ -1,5 +1,6 @@
 # {ing}tech_it : Configuración Raspberry Pi
 
+Configuración Raspberry Pi
 
 Para la configuración de la Raspberry Pi hemos utilizado un equipo Windows y el programa Win32 Disk Imagen para grabar la imagen rasbian en la SD.
 
@@ -10,11 +11,11 @@ En primer lugar descargamos la imagen rasbian desde la página oficial de raspbe
 
 Una vez descargado la imagen introducimos la micro-sd en nuestro PC y la formateamos en FAT32 pulsando el botón derecho sobre la SD y dandole a formatear SD.
 
-(TODO IMAGEN FORMATEAR TARJETA)
+![FORMATEAR TARJETA](./images/borrar_sd.PNG)
 
-Ahora abrimos el programa Win32 Disk Imager [enlace descarga](https://sourceforge.net/projects/win32diskimager/) y seleccionamos la SD (Ojo!! Elegir la SD para no borrar otra tarjeta distinta) y le damos al botón "Read" para que nos grabe la imagen que hemos descargado en la SD.
+Ahora abrimos el programa Win32 Disk Imager [enlace descarga](https://sourceforge.net/projects/win32diskimager/) y seleccionamos la SD (Ojo!! Elegir la SD para no borrar otra tarjeta distinta) y le damos al botón "Write" para que nos grabe la imagen que hemos descargado en la SD.
 
-(TODO IMAGEN Win32)
+![GRABAR WIN32DISKIMAGER](./images/win_32_imager.PNG)
 
 
 ## Configurar ssh y acceso a internet en la sd
@@ -22,11 +23,12 @@ Ahora abrimos el programa Win32 Disk Imager [enlace descarga](https://sourceforg
 Ahora sin sacar la SD del ordenador accedemos a su contenido y seguimos estos dos pasos:
 1. Crear un directorio vacio con el nombre ssh en la raíz de la sd.
 
-(TODO IMAGEN SD)
+![CREAR DIRECTORIO SSH](./images/directorio_ssh.PNG)
 
-2. Crear un fichero llamado wpa_configure.conf con las credenciales de todos los datos de nuestra conexión WiFi para que al encenderla se conecte sola a la WiFi.
+2. Crear un fichero llamado wpa_supplicant.conf con las credenciales de todos los datos de nuestra conexión WiFi para que al encenderla se conecte sola a la WiFi.
 
-(TODO FICHERO DE CONFIGURACION WIFI)
+
+![CREAR FICHERO CONFIGURACION](./images/configuracion_wpa_supplicant_conf.PNG)
 
 ## Arrancar la Raspberry Pi y acceder a ella por ssh
 
