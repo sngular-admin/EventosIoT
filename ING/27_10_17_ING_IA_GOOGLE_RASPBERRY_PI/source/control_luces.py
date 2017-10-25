@@ -29,7 +29,7 @@ from google.assistant.library import Assistant
 from google.assistant.library.event import EventType
 from google.assistant.library.file_helpers import existing_file
 
-
+#Procesamos lo que la información que ha recogido el asistente de google y emitimos una respuesta
 def process_event(event, assistant):
     """Pretty prints events.
 
@@ -65,6 +65,7 @@ def process_event(event, assistant):
 
 
 def main():
+    #Autentificamos nuestra raspberry pi con nuestras credenciales
     parser = argparse.ArgumentParser(
         formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('--credentials', type=existing_file,
@@ -80,6 +81,7 @@ def main():
         credentials = google.oauth2.credentials.Credentials(token=None,
                                                             **json.load(f))
 
+    #Establecemos el canal de comunicación entre el Google Assistant y el usuario de la Raspberry Pi
     with Assistant(credentials) as assistant:
         for event in assistant.start():
             process_event(event, assistant)
@@ -87,6 +89,7 @@ def main():
 
 if __name__ == '__main__':
 
+    #Inicializamos el puerto GPIO 18 que es el que usaremos
     GPIO.setmode(GPIO.BCM)
     GPIO.setwarnings(False)
     GPIO.setup(18,GPIO.OUT)

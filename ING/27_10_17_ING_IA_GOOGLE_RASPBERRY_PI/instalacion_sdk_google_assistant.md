@@ -49,11 +49,39 @@ source env/bin/activate
 Instalamos la librería del google assistant
 
 ~~~
-python -m pip install --upgrade google-assistant-library
+(env) $ python -m pip install --upgrade google-assistant-library
 ~~~
 
-3. Probamos el ejemplo 
-TODO
+3. Probamos el ejemplo que nos proporciona google en la documentación (Dentro de la Raspberry Pi y dentro del entorno, si no aparece (env) lanzar el comando "source env/bin/activate" para entra dentro del entorno)
+
+3.1. Abrimos un navegador y entramos con la cuenta que hemos creado la cuenta de desarrollador [enlace](https://developers.google.com/assistant/sdk/develop/python/config-dev-project-and-account#set-activity-controls).
+
+3.2. Autorizamos a nuestra Raspberry Pi con Google Assistant SDK
+a. Instalamos la herramienta de autorización dentro de nuestro entorno virtual (env):
+~~~
+(env) $ python -m pip install --upgrade google-auth-oauthlib[tool]
+~~~
+
+b.	Lanzamos la herramienta y le pasamos el fichero json que hemos guardado en la Raspberry Pi:
+
+~~~
+(env) $  google-oauthlib-tool --client-secrets /path/to/client_secret_client-id.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save --headless
+~~~
+
+c. Despues de lanzar el comando anterior nos devolvera una url que copiamos y pegamos en cualquier navegador y obtenemos un código que lo debemos pegar a continuación de la url que nos genero el comando anterior.
+
+TODO 
+![AUTORIZAR LA RASPBERRY PI](./images/autorizando_raspberry_pi_con_google_assistant.png)
+
+d. Lanzamos la demo si todo lo anterior ha ido bien:
+
+~~~
+(env) $  google-assistant-demo
+~~~
+
+
+e. Decimos "OK Google" cerca del microfono de la raspberry pi y nos debe responder el assistente por el altavoz.
+
 
 [+AYUDA](https://developers.google.com/assistant/sdk/develop/python/run-sample)
 --------

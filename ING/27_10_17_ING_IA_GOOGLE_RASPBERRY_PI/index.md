@@ -12,7 +12,6 @@ Para cumplir nuestro objetivo vamos a seguir estos pasos:
 1. [Instalación SDK Google Assistant Python](./instalacion_sdk_google_assistant.md)
 1. [Crear DialogFlow y crear Actions Google Asociado](./creando_dialog_flow_y_action_google.md)
 1. [Conectar LED a la Raspberry Pi](./montando_circuito.md)
-1. [Demo del Sistema](./demo_sistema.md)
 
 
 ---
