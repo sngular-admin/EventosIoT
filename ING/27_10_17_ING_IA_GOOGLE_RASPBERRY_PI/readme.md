@@ -3,7 +3,7 @@
 
 Este taller permite al alumno controlar un led conectado a una raspberry pi a través de la voz.
 
-Para ello, el alumno utilizará varios sistemas, en un principio, creará un bot con el servicio de inteligencia artificial de google llamado dialogflow.
+Para ello, el alumno utilizará varios sistemas, en un principio, creará un bot con el servicio de inteligencia artificial de Google llamado dialogflow.
 
 Una vez creado el bot creará una aplicación con Actions Google que integrará con el bot creado.
 
