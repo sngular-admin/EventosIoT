@@ -32,9 +32,9 @@ source env/bin/activate
 (env) $ cp -r assistant-sdk-python/google-assistant-sdk/googlesamples/assistant/library new-project
 ~~~
 
-4.	Una vez que hemos visto que todo ha funcionado ahora vamos a modificar un poco el código y vamos a controlar el led con nuestra aplicación y con nuestra respuestas:
+4.	Una vez que hemos visto que todo ha funcionado bien, vamos a modificar un poco el código y vamos a controlar el led con nuestra aplicación y con nuestras respuestas:
 
-a.	Creamos un script en python basandonos en el ejemplo que nos ha dado google pero lo hemos personalizado, lo importante del código es entender como se autentifica, como pasa además del 'event' el 'assistant' para controlar lo que ha hablado el usuario a la raspberry pi.
+a.	Creamos un script en python basándonos en el ejemplo que nos ha dado Google que hemos personalizado. Lo importante del código es entender cómo se autentifica y cómo pasamos al método de processing las variables 'event' y 'assistant' para procesar lo que ha hablado el usuario a la raspberry pi.
 
 ~~~
 #!/usr/bin/env python
@@ -139,10 +139,10 @@ if __name__ == '__main__':
 ## Pasos para probar la demo
 
 1.	Arrancamos el Script en python
-2.	Establecemos comunicación con el servidor de google con "OK Google"
-3.	Invocamos la Actions Google que nos conecta con nuestro bot en mi caso dijo "talk pi", recuerde que Actions Google no admite aún Español y debemos hablar en Inglés.
-4.	Le indicamos que queremos hacer a la Raspberry en mi caso encender la luz para ello dijo "light on" y se debe encender la luz si me ha entendido.
-5.	Apago la luz diciendo "light off" y se debe apagar la luz si me ha entendido.
+2.	Establecemos comunicación con el servidor de Google con "OK Google"
+3.	Invocamos la Actions on Google que nos conecta con nuestro bot. En mi caso era "talk pi". Recordemos que Actionson Google no admite aún Español y debemos hablar en Inglés.
+4.	Indicamos a la Raspberry qué queremos hacer: en mi caso, encender la luz. Para ello digo: "light on". Y se debe encender la luz si me ha entendido.
+5.	Apago la luz diciendo: "light off". Y se debe apagar la luz si me ha entendido.
 6.	Finalmente me despido del Google Assistant con "Goodbye"
 
 
