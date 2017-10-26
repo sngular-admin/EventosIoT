@@ -1,8 +1,8 @@
 # {ing}tech_it : Índice
 
-El objetivo de esta taller es aplicar los conocimientos aprendidos en el taller de Inteligencia Artificial en la que se ha utilizado DialogFlow para crear un Bot.
+El objetivo de esta demo es poder aplicar los conocimientos aprendidos en el taller de ChatBots, en el que hemos utilizado DialogFlow, para controlar elementos físicos (por ejemplo, encender y apagar una lámpara)
 
-En este taller se usará un Bot creado en DialogFlow y un Action Google para encender una luz conectada a una Raspberry Pi a través de la voz, con el Google Assistant Voice de Google instalado en la Raspberry Pi.
+Usaremos un Bot creado en DialogFlow, y Actions on Google, para encender una luz conectada a una Raspberry Pi a través de la voz, utilizando Google Assistant Voice, de Google, que instalaremos en la Raspberry Pi.
 
 Para cumplir nuestro objetivo vamos a seguir estos pasos:
 
