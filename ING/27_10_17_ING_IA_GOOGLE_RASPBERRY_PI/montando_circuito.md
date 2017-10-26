@@ -13,7 +13,7 @@ Debemos tener en cuenta que la lámpara LED tiene dos patillas, una más corta q
 
 Después de montar el circuito, encendemos la Raspberry Pi y accedemos a ella a través de ssh (protocolo que facilita las comunicaciones seguras entre dos sistemas) Una vez dentro vamos a seguir los siguientes pasos:
 
-1.	Accedemos al entorno virtual que habiamos creado con el siguiente comando:
+1.	Accedemos al entorno virtual que habíamos creado con el siguiente comando:
 
 ~~~
 source env/bin/activate
