@@ -46,7 +46,7 @@ def process_event(event, assistant):
         print("speech text: " + speech_text)
         GPIO.setup(18,GPIO.OUT)
         if(speech_text == 'light off' or speech_text == 'lights off' or speech_text == 'light of'
-            speech_text == 'lights off' or speech_text == 'light of' or speech_text == 'lights of'
+            or speech_text == 'lights off' or speech_text == 'lights of'
             or speech_text == 'Light OFF'):
             print("------------")
             print("------------")

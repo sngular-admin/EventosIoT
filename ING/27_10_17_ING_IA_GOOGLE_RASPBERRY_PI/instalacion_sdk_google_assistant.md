@@ -68,10 +68,12 @@ b. Lanzamos la herramienta y le pasamos el fichero json que hemos guardado en la
 (env) $  google-oauthlib-tool --client-secrets /path/to/client_secret_client-id.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save --headless
 ~~~
 
+![URL QUE DEBEMOS INTRODUCIR](./images/autorizando_raspberrypi.jpg)
+
 c. Despues de lanzar el comando anterior nos devolvera una url que copiamos y pegamos en cualquier navegador. Obtendremos un código que debemos pegar a continuación de la url que nos generó el comando anterior.
 
-TODO 
-![AUTORIZAR LA RASPBERRY PI](./images/autorizando_raspberry_pi_con_google_assistant.png)
+
+![RASPBERRY PI AUTORIZADA](./images/autorizada_raspberry_pi.PNG)
 
 d. Lanzamos la demo (si todo lo anterior ha ido bien):
 
