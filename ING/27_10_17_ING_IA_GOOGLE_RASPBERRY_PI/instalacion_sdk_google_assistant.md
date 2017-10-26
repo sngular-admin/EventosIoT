@@ -1,9 +1,9 @@
 # {ing}tech_it : Instalación SDK Google Assistant API
 
 
-Una vez hemos conectado por ssh a nuestra Raspberry Pi ya estamos en situación de poder instalar el SDK de Google Assistant para Python en nuestra Raspberry Pi.
+Una vez nos hemos conectado por ssh a nuestra Raspberry Pi, ya estamos en situación de poder instalar el SDK de Google Assistant para Python en nuestra Raspberry Pi.
 
-Antes de instalar dicho SDK es aconsejable crear una cuenta gratuita de Google para desarrolladores en Google Cloud Platform con una cuenta de correo gmail la cual utilizaremos para todo los procesos de conectar la Raspberry Pi con nuestro bots y nuestra aplicación creada en Actions Google e integrada con nuestro bots. Para crear dicha cuenta podeis ir a este [enlace](https://cloud.google.com/?hl=es)
+Antes de instalar dicho SDK es aconsejable crear una cuenta gratuita de Google para desarrolladores en Google Cloud Platform. Utilizamos una cuenta de correo gmail para todos los procesos de conectar la Raspberry Pi con nuestro bot y nuestra aplicación creada en Actions on Google (ya integrada con nuestro bot). Para crear dicha cuenta podeis ir a este [enlace](https://cloud.google.com/?hl=es)
 
 ![GOOGLE CLOUD PLATFORM](./images/cloud_new_account.png)
 
@@ -20,7 +20,7 @@ Una vez que hemos creado la cuenta procedemos a instalar el SDK de Google Assist
 
 ![ENABLE API CREDENTIALS](./images/enable_api_credential.png)
 
-Una vez habilitada la API nos vamos a la pestaña credenciales en la pestaña "Credenciales" y creamos una credencial para nuestra Raspberry Pi que sea única para ella.
+Una vez habilitada la API nos vamos a la pestaña credenciales en la pestaña "Credenciales" y creamos una credencial para nuestra Raspberry Pi (que sea única).
 
 ![CREATE CREDENTIAL FOR RASPBERRY PI](./images/create_credential_raspberry_pi.png)
 
@@ -52,7 +52,7 @@ Instalamos la librería del google assistant
 (env) $ python -m pip install --upgrade google-assistant-library
 ~~~
 
-3. Probamos el ejemplo que nos proporciona google en la documentación (Dentro de la Raspberry Pi y dentro del entorno, si no aparece (env) lanzar el comando "source env/bin/activate" para entra dentro del entorno)
+3. Probamos el ejemplo que nos proporciona google en la documentación (Dentro de la Raspberry Pi y dentro del entorno. Si no aparece (env), debes lanzar el comando "source env/bin/activate" para entra dentro del entorno)
 
 3.1. Abrimos un navegador y entramos con la cuenta que hemos creado la cuenta de desarrollador [enlace](https://developers.google.com/assistant/sdk/develop/python/config-dev-project-and-account#set-activity-controls).
 
@@ -62,25 +62,25 @@ a. Instalamos la herramienta de autorización dentro de nuestro entorno virtual 
 (env) $ python -m pip install --upgrade google-auth-oauthlib[tool]
 ~~~
 
-b.	Lanzamos la herramienta y le pasamos el fichero json que hemos guardado en la Raspberry Pi:
+b. Lanzamos la herramienta y le pasamos el fichero json que hemos guardado en la Raspberry Pi:
 
 ~~~
 (env) $  google-oauthlib-tool --client-secrets /path/to/client_secret_client-id.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save --headless
 ~~~
 
-c. Despues de lanzar el comando anterior nos devolvera una url que copiamos y pegamos en cualquier navegador y obtenemos un código que lo debemos pegar a continuación de la url que nos genero el comando anterior.
+c. Despues de lanzar el comando anterior nos devolvera una url que copiamos y pegamos en cualquier navegador. Obtendremos un código que debemos pegar a continuación de la url que nos generó el comando anterior.
 
 TODO 
 ![AUTORIZAR LA RASPBERRY PI](./images/autorizando_raspberry_pi_con_google_assistant.png)
 
-d. Lanzamos la demo si todo lo anterior ha ido bien:
+d. Lanzamos la demo (si todo lo anterior ha ido bien):
 
 ~~~
 (env) $  google-assistant-demo
 ~~~
 
 
-e. Decimos "OK Google" cerca del microfono de la raspberry pi y nos debe responder el assistente por el altavoz.
+e. Decimos "OK Google" cerca del microfono de la raspberry pi. Nos debe responder el asistente por el altavoz.
 
 
 [+AYUDA](https://developers.google.com/assistant/sdk/develop/python/run-sample)
