@@ -3,14 +3,14 @@
 Para poder desarrollar el taller necesitamos:
 
 1. HARDWARE
-- Ordenador Windows o Mac para instalar Rasbian en la SD de la Raspberry
+- Ordenador Windows o Mac para instalar el sistema operativo Rasbian en la tarjeta micro SD insertada en la Raspberry Pi
 - Raspberry Pi 3
 - Microfono USB
 - Altavoz o Auriculares JACK 3.5mm
-- Tarjeta SD de al menos 8Gb
-- Placa Board
-- Led
-- 1 Resistencia desde 300ohm hasta 1kohm
+- MicroTarjeta SD de al menos 8Gb
+- Placa de pruebas (Protoboard)
+- Lámpara LED de 2 pines
+- 1 Resistencia (desde 300ohm hasta 1kohm)
 - Cargador USB de al menos 1.5A
 - 2 cables jumper Female-Male
 
