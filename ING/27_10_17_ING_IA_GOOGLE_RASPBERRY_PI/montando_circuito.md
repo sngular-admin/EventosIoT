@@ -1,17 +1,17 @@
 # {ing}tech_it : Montando Circuito
 
-## Montado del circuito
+## Montaje del circuito
 
-Para el montado de circuito vamos a desconectar la raspberry pi de la conexión electrica y vamos  a a montar el siguiente esquema:
+Para el montaje de circuito, desconectamos la Raspberry Pi de la red electrica y seguimos este esquema:
 
 ![CIRCUITO](./images/circuito_led_raspberry_pi.jpg)
 
 
-A la hora de montar el circuito debemos tener en cuenta que el led tiene dos patillas una que es más corta que va conectada a una patilla de la resistencia y otro que es más larga que va conectada al cable del GPIO18.
+Debemos tener en cuenta que la lámpara LED tiene dos patillas, una más corta que va conectada a una patilla de la resistencia, y otra más larga que va conectada al cable del puerto GPIO18 de la Raspberry Pi.
 
-## Configurar código en la Raspberry Pi para controlar el led con Google Assistant
+## Configurar código en la Raspberry Pi para controlar el LED con Google Assistant
 
-Después de montar el circuito encendemos de nuevo la raspberry pi y accedemos a ella a través de ssh. Una vez dentro vamos a seguir los siguientes pasos:
+Después de montar el circuito, encendemos la Raspberry Pi y accedemos a ella a través de ssh (protocolo que facilita las comunicaciones seguras entre dos sistemas) Una vez dentro vamos a seguir los siguientes pasos:
 
 1.	Accedemos al entorno virtual que habiamos creado con el siguiente comando:
 
