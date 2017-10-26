@@ -2,18 +2,18 @@
 
 Configuración Raspberry Pi
 
-Para la configuración de la Raspberry Pi hemos utilizado un equipo Windows y el programa Win32 Disk Imagen para grabar la imagen rasbian en la SD.
+Para la configuración de la Raspberry Pi hemos utilizado un equipo Windows y el programa Win32 Disk Imager, para grabar la imagen rasbian en la SD (Para Mac utilizaremos la aplicación de consola Disk Utility)
 
-Los pasos seguidos son:
+Los pasos a seguir son:
 ## Instalar Sistema Operativo Rasbian en nuestra SD (Minimo 8Gb)
 
 En primer lugar descargamos la imagen rasbian desde la página oficial de raspberry pi y la guardamos en nuestro ordenador [enlace descarga](https://www.raspberrypi.org/downloads/raspbian/).
 
-Una vez descargado la imagen introducimos la micro-sd en nuestro PC y la formateamos en FAT32 pulsando el botón derecho sobre la SD y dandole a formatear SD.
+Una vez descargada la imagen, introducimos la micro-sd en nuestro PC y la formateamos en FAT32 pulsando el botón derecho sobre la SD y haqciendo click en formatear SD.
 
 ![FORMATEAR TARJETA](./images/borrar_sd.PNG)
 
-Ahora abrimos el programa Win32 Disk Imager [enlace descarga](https://sourceforge.net/projects/win32diskimager/) y seleccionamos la SD (Ojo!! Elegir la SD para no borrar otra tarjeta distinta) y le damos al botón "Write" para que nos grabe la imagen que hemos descargado en la SD.
+Ahora abrimos el programa Win32 Disk Imager [enlace descarga](https://sourceforge.net/projects/win32diskimager/) y seleccionamos la SD (¡Ojo! Elegir la SD para no borrar otra tarjeta distinta) y le damos al botón "Write" para que nos grabe la imagen que hemos descargado en la SD.
 
 ![GRABAR WIN32DISKIMAGER](./images/win_32_imager.PNG)
 
@@ -34,13 +34,13 @@ Ahora sin sacar la SD del ordenador accedemos a su contenido y seguimos estos do
 
 Una vez hemos realizado todos los pasos anteriores nos disponemos a encender la Raspberry Pi y acceder a ella por ssh si estamos conectado a la misma red WiFi que la Raspberry Pi.
 
-Para realizar el acceso por ssh podemos usar putty (En Windows) o terminal (En Mac o Linux). Para este acceso necesitamos saber la IP que nuestra red WiFi le ha asignado a nuestra Raspberry Pi, para ello podemos usar un analizador de red como puede ser Advanced IP Scanner (En Windows) o IP Scanner (En Mac), en este programa nos mostrará todos los dispositivos que estan conectados a la red, y en uno de ellos nos aparecera la Raspberry Pi marcada con el nombre (En Windows) o el icono de la Raspberry Pi (En Mac).
+Para realizar el acceso por ssh podemos usar putty (En Windows) o terminal (En Mac o Linux). Para este acceso necesitamos saber la IP que nuestra red WiFi le ha asignado a nuestra Raspberry Pi. Para ello podemos usar un analizador de red como puede ser Advanced IP Scanner (En Windows) o IP Scanner (En Mac). En este programa nos mostrará todos los dispositivos que estan conectados a la red, y podremos encontrar la Raspberry Pi marcada con el nombre (En Windows) o el icono de la Raspberry Pi (En Mac).
 
-Una vez tenemos la IP procedemos acceder a ella através de ssh y el usuario por defecto es "pi" y la password "raspberry".
+Una vez tenemos la IP procedemos acceder a ella através de ssh. El usuario por defecto es "pi" y la password "raspberry".
 
 ## Configurar Microfono USB en la Raspberry Pi
 
-Para finalizar este paso vamos a configurar el microfono usb en nuestra Raspberry Pi para ello vamos a conectar el microfono a uno de las USB de la Raspberry Pi y vamos a probar que emite sonido y que graba sonido, podemos utilizar para escuchar el sonido unos auriculares conectados al mini jack 3.5 que trae la Raspberry Pi.
+Para finalizar este paso vamos a configurar el microfono usb en nuestra Raspberry Pi. Conectaremos el microfono a uno de los puertos USB y probaremos que emite y graba sonido. Podemos utilizar unos auriculares conectados al mini jack 3.5 de la Raspberry Pi, para la salida de audio
 
 1. Emite sonido
 
@@ -59,7 +59,7 @@ Lanzamos el siguiente comando que graba 5 segundos
 arecord --format=S16_LE --duration=5 --file-type=raw out.raw 
 ~~~
 
-Escuchamos si ha grabado correctamente
+Comprobamos si ha grabado correctamente
 
 ~~~
 aplay --format=S16_LE out.raw  
