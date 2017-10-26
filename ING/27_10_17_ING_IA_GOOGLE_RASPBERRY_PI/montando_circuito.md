@@ -19,7 +19,7 @@ Después de montar el circuito, encendemos la Raspberry Pi y accedemos a ella a 
 source env/bin/activate
 ~~~ 
 
-2.	Dentro del entorno virtual vamos a instalar la librería para controlar los puertos GPIO de la raspberry pi con python, para ello instalamos esta librería:
+2.	Dentro del entorno virtual vamos a instalar la librería para controlar los puertos GPIO de la raspberry pi con python. Para ello instalamos esta librería:
 
 ~~~
 (env) $ pip install RPi.GPIO
